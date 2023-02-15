@@ -30,10 +30,15 @@ public class mainClass {
         /*
          * Exceção de número negativo.
          */
-        if(num <= 0){
+        if(num < 0){
             System.out.println("É possível realizar o cálculo de números primos somente com números naturais.");
             System.exit(0);
         }
 
+        input.close();
+
+        matematica.calcularPrimo(num);
+
+        
     }
 }
