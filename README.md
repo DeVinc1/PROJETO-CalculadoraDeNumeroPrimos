@@ -1,18 +1,18 @@
-## Getting Started
+# 📝PROJETO - Calculadora de Número Primos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Uma calculadora de terminal simples que permite o usuário verificar se um número é  primo ou não bem como seus divisores.
 
-## Folder Structure
+## 💽 Tech Stack
 
-The workspace contains two folders by default, where:
+  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 A estrutura do projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ - `bin` - pasta com as classes binárias criadas pelo Java;
+ - `lib` - contém as bibliotecas utilizadas no projeto;
+ - `src` - contém os códigos fontes do projeto;
+ 
+ ## 📜 Descrição
+ 
+Nesta calculadora, o usuário fornece um número natural (inteiro positivo) do qual serão encontrados todos os divisores. A partir do seu número de divisores, ele será classificado como primo (2 divisores) ou não (3+ divisores).  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
